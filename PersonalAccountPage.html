@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Trip Planner</title>
+    <link rel="stylesheet" type="text/css" href="design.css" />
+</head>
+<body>
+
+<div class="header">
+    <h1>Trip Planner</h1>
+    <p>Plan your trip with me</p>
+</div>
+
+<div class="topnav">
+    <a href="#">Add trip</a>
+    <a href="#">Edit trip</a>
+    <a href="#">Map</a>
+    <div class="logout"><a href="LoginPage.html">Logout</a></div>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+           <h2>Add a trip</h2>
+            <form action="#">
+                <label for="Name">Name:</label><br>
+                <input type="text" id="Name" name="Name" value="e.g.weekend in Paris"><br>
+                <label for="tripStart">Start:</label><br>
+                <input type="date" id="tripStart" name="tripStart" value=""><br>
+                <label for="tripEnd">End:</label><br>
+                <input type="date" id="tripEnd" name="tripEnd" value=""><br>
+                <label for="Destination">Destination:</label><br>
+                <input type="text" id="Destination" name="Destination" value="e.g. Paris"><br><br>
+                <input type="button" onclick="alert('Saved')" value="Save">
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
